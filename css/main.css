@@ -1,0 +1,177 @@
+
+/*********GRID********/
+.full-width {
+  width:100%;
+  float:left;
+}
+.half-width {
+  width: 50%;
+  float: left;
+}
+.third-width{
+  width: 33%
+  float: left;
+}
+.two-thirds-width{
+  width: 66%
+  float: left;
+}
+
+/*********BASE STYLES*********/
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+h2 {
+  color: #black;
+  font-family: 'Playfair Display', serif;
+  font-size: 46px;
+  text-align: center;
+}
+
+h3 {color: #E24D84;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  font-weight:bold;
+}
+
+p {
+  color: #black;
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+}
+
+/********HEADER******/
+#header{
+  height: 400px;
+  background-color: #e4b363;
+  width: 100%;
+  }
+
+#logo{
+  height: 250px;
+  padding: 70px;
+  float: right;
+}
+
+  nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 10px;
+    margin-top: 12px;
+    margin-right: 50px;
+    }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  li a{
+    display: block;
+    font-size: 25px;
+  }
+
+  /********FLAVORS********/
+  #flavors{
+    height: 2000px;
+    background-color: white;
+    padding: 40px;
+  }
+
+  #flavors h1{
+  color: #black;
+}
+
+#flavors p{
+  color: black;
+}
+
+  .cupcake{
+    height: 70px;
+    padding-left: 30px;
+  }
+
+  /********ORDER********/
+  #order{
+    height: 470px;
+    width: 100%;
+    background-color: #e0dfd5;
+    padding: 20px;
+  }
+
+  #order h1, h2, p{
+    padding-left: 30px;
+  }
+
+  #order h3{
+    padding: 0;
+    text-align: center;
+  }
+
+  #order .third-width{
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    width: 33%;
+  }
+
+  #order p{
+    color: black;
+  }
+
+/********ABOUT********/
+#about{
+  height: 700px;
+  background-color: #e4b363;
+  padding: 20px;
+  font-color: white;
+}
+
+#about-pic{
+  border: solid black 10px;
+  margin-left: 30px;
+  height: 450px;
+}
+
+#about .third-width{
+  width: 30%;
+  float: left;
+  margin-left: 30px;
+}
+
+#about .two-thirds-width{
+  width: 60%;
+  float: right;
+  margin-right: 40px;
+}
+
+#about p{
+  color: black;
+}
+
+#signature{
+clear: both;
+}
+
+/*********CONTACT********/
+#contact{
+  height: 500px;
+  background-color: #313638;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#contact h2, p{
+  color: white;
+}
+
+#contact a{
+  color: white;
+}
